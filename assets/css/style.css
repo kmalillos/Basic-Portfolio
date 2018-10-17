@@ -237,5 +237,108 @@ footer {
 } */
 
 
+/* MEDIA QUERIES */
+
+/* Desktop */
+@media screen and (max-width: 980px) {
+  
+    .wrapper {
+      width: 95%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+  
+    nav {
+      float: right;
+      margin-top: 25px;
+      margin-right: 30px;
+    }
+  
+    .container {
+      width: 95%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+  
+    .main-section {
+      float: left;
+      width: 650px;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  
+  }
+  
+  /* Tablet */
+  @media screen and (max-width: 768px) {
+  
+    .wrapper {
+      width: 98%;
+      margin: 0 15px;
+      clear: both;
+    }
+  
+    nav {
+      float: right;
+      margin-top: 25px;
+      margin-right: 30px;
+    }
+  
+    .container {
+      width: 98%;
+      margin: 0 15px;
+      clear: both;
+    }
+  
+    .main-section {
+      float: left;
+      width: 95%;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  
+    .auth-image,{
+      float: left;
+      width: 50%;
+    }
+  
+  }
+  
+  /* Cellphone */
+  @media screen and (max-width: 640px) {
+  
+    #masthead {
+      position: static;
+      margin: 0;
+    }
+  
+    .wrapper,  
+    #logo,
+    nav {
+     text-align: center;
+      margin: 0 0 10px 0;
+      width: 100%;
+    }
+  
+    #main-container {
+      padding-top: 20px;
+    }
+  
+    .container {
+      width: 99%;
+    }
+  
+    .auth-image,
+    .work {
+      float: left;
+      width: 100%;
+    }
+  
+  }
+
 
 
